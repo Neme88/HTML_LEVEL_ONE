@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment On Forms In Html</title>
+</head>
+<body> 
+    <h1>Assessment Objectives</h1>
+    <h3>The Objective of this course Assessment is design to test your knowledge on HTML forms covered earlier.</h3>
+    <p>Below is the given html form example you are expected to replicate.</p>
+    
+  <form>
+
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password, and Email are Required</p>
+    <label for="firstname" name="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required placeholder="First Name">
+    <label for="lastname" name="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" required placeholder="Last Name">
+    <br><br>
+    <label for="email" name="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Email Address">
+    <label for="password" name="password">Password:</label>
+    <input type="password" id="password" name="password" required >
+    <p>Are you over the age of 18?</p>
+    <label for="yes">Yes:</label>
+    <input type="radio" id="yes" name="age" value="yes" required>
+    <label for="no">No:</label>
+    <input type="radio" id="no" name="age" value="no" required>
+    <p>Do you have a Credit Card or PayPal?</p>
+    <select>
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+    </select>
+    <br><br>
+    <button type="submit">Submit Feedback</button>
+ </form>
+
+
+</body>
+</html>
