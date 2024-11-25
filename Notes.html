@@ -6,7 +6,9 @@
     <title>Full Html Course!</title>
   </head>
   <body>
-    <h1>Headings Example in Html</h1>
+    <h1>Full Html Course Note!</h1>
+
+    <h2>Headings Example in Html</h2>
     <!-- ANYTHING HERE IS A  COMMENT-->
     
     <h1>This is a Heading 1</h1>
@@ -17,7 +19,7 @@
     <h6>This is a Heading 6</h6>
     
     <!--Use Paragraph tag as shown below for normal size characters -->
-    <h1>Paragraph Example in Html</h1>
+    <h2>Paragraph Example in Html</h2>
     <p>Paragraph in Html is a to write normal characters in it is denoted with the p tag </p>
     <p>This is a paragraph.</p>
 
@@ -38,13 +40,13 @@
     <!--Example below is the new way of making characters Italics in Html by calling the em tag on the target character -->
     <p><em>This is the new way of making a letter italics using the em tag</em></p>
 
-    <h1>Lists Example in Html</h1>
+    <h2>Lists Example in Html</h2>
 
     <p>In HTML, a list is a structured way to group related items together. Lists are used to display data in an organized and easy-to-read manner. HTML supports several types of lists, each suited for specific use cases.</p>
     <p>There are two types of list in Html ordered list and unordered list below is the example of both</p>
     <p>There key difference between ordered list and unordered list is that ordered list is numbered while unordered list bulleted</p>
     
-    <h2>Ordered list example in Html</h2>
+    <h3>Ordered list example in Html</h3>
     <!--Ordered List example-->
     <ol>
         <li>First ordered list Item</li>
@@ -52,7 +54,7 @@
         <li>Third ordered list Item</li>
         <li>Fourth ordered list Item</li>
     </ol>
-    <h2>Unordered list example in Html</h2>
+    <h3>Unordered list example in Html</h3>
     <!--Unordered List example-->
     <ul>
         <li>first unordered list item</li>
@@ -60,7 +62,7 @@
         <li>third unordered list item</li>
         <li>fourth unordered list item</li>
     </ul>
-    <h2>Nested List Example in Html</h2>
+    <h3>Nested List Example in Html</h3>
 <p>Another interesting topic in Html list is list nesting which simply put means having one list inside another list</p>
 
     <!--Nested List example-->
@@ -84,26 +86,26 @@
             </ol>
         </li>
     </ol>
-    <h1> Div element Example in Html</h1>
+    <h2> Div element Example in Html</h2>
     <p>A div is a block level element in HTML and is used to group together HTML elements for styling purposes.
     It is also used to create sections within a document. You only see the effect of the use of div elements when CSS styling is applied
     </p>
     <div>
-        <h2>This is a Div with Heading</h2>
+        <h3>This is a Div with Heading</h3>
         <p>This is a paragraph inside the Div</p>
     </div>
-    <h1>Span element Example in Html</h1>
+    <h2>Span element Example in Html</h2>
     <p>Span is an inline container in Html used primarily to group or style a small portion of text or elements within a document
     without adding any semantic meaning.</p>
     <p>Hey look span element was applied to me <span> but you will probably not notice until I am styled</span></p>
 
-    <h1>Attributes example in Html</h1>
+    <h2>Attributes example in Html</h2>
     <p>Attributes provides additional information about an element, defining its behavior, appearance, or functionalities
     <p>There are general purpose attributes like  the <strong>class, ID, style, title and data-</strong>attributes.</p>
     <p>There are event driven attributes such as <strong>onclick and onmouseover</strong> attributes etc </p>
     <p>There  are also Element specific attributes examples</p>
     <ul>
-        <li> For Ancor tag or a tag: 
+        <li> For Anchor tag or a tag: 
             <ul>
                 <li> <strong>href:</strong> Specifies the URL to link to</li>
                 <li> target:Specifies where to open the linked document. Options: _blank, _self, _parent, _top</li>
@@ -116,7 +118,7 @@
          </ul>
         </li>
     </ul>
-    <h1>Table example in Html</h1>
+    <h2>Table example in Html</h2>
     <p>Table in Html is used to present data in an organized structure rows and columns way, A typical table has these tags<strong> open and closing table tag </strong></p>
     <p> <strong>open and closing thead tags </strong>inside the thead tags there is <strong>open and closing th tags</strong> The thead tag and the th tag is used to present the heading of a table</p>
     <p><strong>open and closing tr tags </strong>inside the tr tags there is <strong>open and closing td tags</strong> Which is used to present the actual data in the table</p>
@@ -128,13 +130,33 @@
                 <th>Age</th>
                 <th>City</th>
             </tr>
+        </thead>
             <tr>
                 <td>John Doe</td>
                 <td>30</td>
                 <td>New York</td>
             </tr>
-
-        </thead>
     </table>
+    <h2>Form example in Html</h2>
+    <p>form is a very crucial part of html, form plays the primary role of a vehicle which allow interaction between the user and our server.</p>
+    <p>Interactions like login, getting feedbacks or allowing to submit their contact info for us to reach out to them or to fill out application Etc.</p>
+    <p> Their are a lots of moving parts that makes a form work effectively which I will list some below</p>.
+    <ol>
+        <li><strong>form tag:</strong> The form tag is used to create a form element. The form tag has a action attribute that specifies the URL where the form data should be sent when the form is submitted. The method attribute specifies the HTTP method (GET or POST) to use for sending the form data.</li>
+        <li><strong>input tag:</strong> The input tag is used to create form controls like text fields, checkboxes, radio buttons, submit buttons, reset buttons, and more. The type attribute specifies the type of input field to create. Some common types include <strong>text, email, password, number, checkbox, radio, submit, reset, and file.</strong></li>
+        <li><strong>label tag:</strong>  The label tag is used to define a caption for a form control. The for attribute specifies the id of the form control the label is associated with.</li
+        <li><strong>button tag:</strong>  The button tag is used to create interactive buttons in a form. The type attribute specifies the type of button (submit, reset, button). The value attribute specifies the button's displayed text.</li>
+        <li><strong>select tag: </strong>The select tag is used to create a drop-down list. The option tag is used to create individual options in the drop-down list.</li>
+        <li><strong>textarea tag:</strong> The textarea tag is used to create a box to fit in more text.</li>
+        <li><strong>fieldset tag:</strong> The fieldset tag is used to group related form elements. The legend tag is used to create a caption for the fieldset.</li>
+    </ol>
+    <h3>Below if a simple form</h3>
+    <form>
+        <label for="firstName" name="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter First Name"required>
+        <br><br>
+        <label for="lastName" name="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+    </form>
     </body>
 </html>
