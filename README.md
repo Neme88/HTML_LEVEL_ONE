@@ -73,6 +73,7 @@ The course includes assignments to solidify understanding:
 ### **Advanced HTML**
 - Designing tables and creating interactive forms.
 - Nesting lists and structuring web pages using `<div>` and `<span>`.
+- Implemented form using some of the form tags,such as label,input,select, radio, button etc. and attributes such as Name, value, placeholder, and types. 
 
 ---
 
